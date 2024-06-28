@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Shawaiz Minhas | Frontend Web Developer</title>
+    <meta
+      name="description"
+      content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QD9ESD1D9K"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-QD9ESD1D9K");
+    </script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img src="./assets/png/profile.png" class="header__logo-img" />
+          </div>
+          <span class="header__logo-sub">Shawaiz Minhas</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="index.html#projects" class="header__link"> Projects </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, I'm SHawaiz Minhas</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            A Result-Oriented Web Developer building and managing Websites and
+            Web Applications that leads to the success of the overall product
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="index.html#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a
+            title="linkedin"
+            href="https://www.linkedin.com/in/shawaiz-minhas-6a81a61aa/"
+            class="home-hero__social-icon-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="assets/svg/linkedin-dark.svg"
+              alt="Shawaiz-Linkedin Profile"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            title="twitter"
+            href="https://twitter.com/MinhasShawaiz/"
+            class="home-hero__social-icon-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="assets/svg/twitter-dark.svg"
+              alt="Shawaiz Twitter Profile"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            title="instagram"
+            href="https://www.instagram.com/ms_minhas/"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="assets/svg/instagram.svg"
+              alt="Shawaiz Instagram"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            title="github"
+            href="https://github.com/shawaiz-minhas"
+            class="home-hero__social-icon-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="assets/svg/github-dark.svg"
+              alt="Shawaiz Github Profile"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Here you will find more information about me, what I do, and my
+            current skills mostly in terms of programming and technology
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                I'm a <strong>Frontend Focused Web Developer</strong> building
+                and managing the Front-end of Websites and Web Applications that
+                leads to the success of the overall product. Check out some of
+                my work in the <strong>Projects</strong> section.
+              </p>
+              <p class="about__content-details-para">
+                I also like sharing content related to the stuff that I have
+                learned over the years in <strong>Web Development</strong> so it
+                can help other people of the Dev Community. Feel free to Connect
+                or Follow me on my
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/shawaiz-minhas-6a81a61aa/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+                and
+                <a
+                  rel="noreferrer"
+                  href="https://www.instagram.com/ms_minhas/"
+                  target="_blank"
+                  >Instagram</a
+                >
+                where I post useful content related to Web Development and
+                Programming
+              </p>
+              <p class="about__content-details-para">
+                I'm open to <strong>Job</strong> opportunities where I can
+                contribute, learn and grow. If you have a good opportunity that
+                matches my skills and experience then don't hesitate to
+                <strong>contact</strong> me.
+              </p>
+            </div>
+            <a
+              href="index.html#contact"
+              class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">Bootstrap 3 | 4 | 5</div>
+              <div class="skills__skill">Jquery</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Angular</div>
+              <div class="skills__skill">Typescript</div>
+              <div class="skills__skill">API's integration</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">Material UI</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Github</div>
+              <div class="skills__skill">Responsive Design</div>
+              <div class="skills__skill">Adobe Photoshop</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">Terminal</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Here you will find some of the personal and clients projects that I
+            created with each project containing its own case study
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="assets/jpeg/psw.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Dynamic Password Generator
+              </h3>
+              <p class="projects__row-content-desc">
+                Designed an intuitive user interface with customizable options
+                for generating passwords. Utilized JavaScript to dynamically
+                generate passwords based on user input. Implemented
+                copy-to-clipboard functionality for seamless password retrieval.
+                Ensured the generated passwords adhere to security best
+                practices.
+              </p>
+              <a
+                class="btn btn--med btn--theme dynamicBgClr"
+                href="https://passwordgeneratorwithcopy.netlify.app/"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="assets/png/unit.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Unit onverter</h3>
+              <p class="projects__row-content-desc">
+                Designed and implemented a flexible architecture to support
+                multiple unit categories and conversion types. Utilized
+                JavaScript to perform real-time conversions based on user input.
+                Implemented error handling to provide users with informative
+                feedback in case of invalid input. Ensured cross-browser
+                compatibility and responsive design for optimal user experience
+                across devices.
+              </p>
+              <a
+                class="btn btn--med btn--theme dynamicBgClr"
+                href="https://unit-converter-by-shawaiz.netlify.app/"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="assets/png/calc.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Dynamic Password Generator
+              </h3>
+              <p class="projects__row-content-desc">
+                Designed and implemented the user interface for a clear and
+                intuitive user experience Employed JavaScript to handle
+                calculations and ensure accurate results. Implemented error
+                handling to provide users with informative feedback. Responsive
+                design ensured compatibility across various devices and screen
+                sizes.
+              </p>
+              <a
+                class="btn btn--med btn--theme dynamicBgClr"
+                href="https://javascript-calculator-mini.netlify.app/"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="assets/png/gemini.PNG"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Gemini Template</h3>
+              <p class="projects__row-content-desc">
+                Gemini is a web template that I created targeting the bitcoin
+                and blockchain industry which anyone can use to present their
+                business online. It is created by using modern css and html.
+              </p>
+              <a
+                class="btn btn--med btn--theme dynamicBgClr"
+                href="https://gemini-static-sm.netlify.app/"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Feel free to Contact me by submitting the form below and I will get
+            back to you as soon as possible
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form class="contact__form" action="send_email.php" method="post">
+            <input type="hidden" name="form-name" value="form 1" />
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="email"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/shawaiz-minhas-6a81a61aa/"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="assets/png/linkedin-ico.png"
+                  alt="Shawaiz Linkedin Profile"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/shawaiz-minhas"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="assets/png/github-ico.png"
+                  alt="Shawaiz Github Profile"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/MinhasShawaiz/"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="assets/png/twitter-ico.png"
+                  alt="Shawaiz Twitter Profile"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h2 class="heading heading-sm text-lt">Muhammad Shawaiz Minhas</h2>
+            <p class="main-footer__short-desc">
+              A Frontend focused Web Developer building the Frontend of Websites
+              and Web Applications that leads to the success of the overall
+              product
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          . Made by
+          <a rel="noreferrer" target="_blank" href="index.html"
+            >ShawaizMinhas</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script
+      src="../code.tidio.co_443/hkirvl5pqs5cjjawh11xutnzjgtg9tfi.js"
+      async
+    ></script>
+  </body>
+</html>
